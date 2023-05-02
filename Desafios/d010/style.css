@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #84e1ad;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+header{
+    background-image: linear-gradient(180deg, #42ed8f, #288c54, #164e2f);
+    
+    
+}
+h1{
+    
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav ul li p{
+    padding: 30px 10px;
+    font-weight: 700;
+    margin-left: 0px;
+   color: #84e1ad;
+   
+}
+ul li abbr::before{
+   content: "✓";
+}
+nav{
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    
+}
+header p{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+nav ul li p:hover{
+   color: #164e2f;
+   background-color: #2fa866;
+   padding: 10px;
+   border-radius: 10px;
+}
+main{
+    background-color: aliceblue;
+    color: black;
+    padding: 40px 10px 20px 1px;
+    margin: 1px 75px;
+    border-radius: 3px;
+}
+h2{
+    font-family: 'android';
+    text-align: left;
+    padding: 0px 0px 20px 20px;
+}
+p{
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+p a{
+    background-color: #42ed8f;
+    padding: 2px;
+    color: #164e2f;
+
+}
+p a:hover{
+    padding : 3px;
+    font-size: 16px;
+    background-color: #3cd882;
+}
+.sh{
+    background-image: linear-gradient(90deg, #42ed8f7a, white);
+    padding: 10px 10px;
+    font-size: 20px;
+    margin: 20px 0px 20px 20px;
+}
+iframe{
+    background-color: #1a5c38;
+    padding: 20px 230px;
+}
+h4{
+    color: white;
+    background-color: #2fa866;
+    border-radius: 10px 10px 0px 0px;
+    text-align: left;
+    padding: 10px;
+}
+abbr{
+    text-decoration: none;
+}
+abbr:hover{
+    background-color: #84e1ad;
+    padding: 3px;
+    border-radius: 6px;
+}
+#extra{
+    background-color: #c5ebd6;
+    margin: 40px 50px;
+    border-radius: 10px;
+}
+.versoes{
+    text-align: left;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#versao{
+    margin-top: -130px;
+    margin-left: 800px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+footer{
+    margin-top: 30px;
+    background-color: #1a5c38;
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        background-color: aliceblue;
+        color: black;
+        padding: 40px 10px 10px 10px;
+        margin: 1px 10px;
+        border-radius: 3px;
+    }
+  img{
+    width: 20em;
+  }
+  iframe{
+    width: 20em;
+    height: 10em;
+    padding: 20px 30px ;
+  }
+  #versao{
+    margin-top: 0;
+    margin-left: 0;
+    margin-left: 20px
+    
+}
+nav ul li p{
+    padding: 30px 3px;
+    font-weight: 700;
+    margin-left: 0px;
+
+   
+}
+}

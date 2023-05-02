@@ -1,0 +1,16 @@
+body{
+    background-color: #363636;
+    color: white;
+    font-family: Arial;
+    font-size: 22pt;
+    text-align: center;
+}
+img{
+    width: 25%;
+    margin-left: 3pt;
+    margin-top: 3pt;
+}
+a{
+ color: white;
+ font-size: 15pt;
+}
