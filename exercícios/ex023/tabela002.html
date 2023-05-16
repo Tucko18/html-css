@@ -18,13 +18,25 @@
             padding: 10px;
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(71, 71, 71);
             color: white;
+        }
+        caption{
+            background-color: rgb(143, 143, 143);
+            font-size: 20px;
+            padding: 20px;
+            font-weight: bold;
+        }
+        body tr:nth-child(even){
+            background-color: rgba(255, 255, 255, 0.692);
+        }
+        body tr:nth-child(odd){
+            background-color: rgba(211, 211, 211, 0.692);
         }
         .num{
             text-align: end;
         }
-
+        
     </style>
 </head>
 <body>
@@ -39,12 +51,15 @@
             TR, TD, TH
     -->
     <table>
+        <caption>
+            População por Unidades Federativas
+        </caption>
         <thead>
         <tr>
-            <th>
+            <th scope="col">
                 Estado
             </th>
-            <th>
+            <th scope="col" style="width: 90px;">
                 População
             </th>
         </tr>
@@ -53,7 +68,7 @@
         <tbody>
              <tr>
                 <td>
-                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/22px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" alt=""> São Paulo
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/22px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" alt=""> São Paulo
                 </td>
                 <td class="num">
                     41 262 199 
@@ -271,7 +286,7 @@
         </tbody>
         <tfoot>
            <tr>
-            <th>
+            <th scope="row">
                 Total de Habitantes
             </th>
             <td>
