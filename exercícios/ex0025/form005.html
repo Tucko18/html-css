@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de fórmulario</h1>
+
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>
+                Sexo
+            </legend>
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Feminino</label> <br>
+            <input type="radio" name="sexo" id="isxout" checked><label for="isxout">outro</label> <br>
+        </fieldset>
+           <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esportfut" id="isportfut"> <label for="isportfut">Futebol <br></label>
+            <input type="checkbox" name="esportbas" id="isportbas"><label for="isportbas">Basquetebol <br></label>
+            <input type="checkbox" name="esportnat" id="isportnat"><label for="isportnat">Natação <br></label>
+            <input type="checkbox" name="esportten" id="isportten"><label for="isportten">Tênis<br></label>
+            <input type="checkbox" name="esporthand" id="isporthand"><label for="isporthand">Handebol<br></label>
+
+           </fieldset>
+        <p>
+            <input type="button" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
